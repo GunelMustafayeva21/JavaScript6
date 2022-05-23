@@ -1,0 +1,34 @@
+#products .product-item{
+    position: relative;
+}
+#products .product-item span.bi{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size:25px;
+    color:rgb(207, 207, 240);
+    cursor: pointer;
+}
+#products .product-item span.bi:hover{
+    color: #0D6EFD;
+    transform:scale(1.2);
+}
+#basket table img{
+    width: 100px;
+    border-radius: 10px;
+}
+#basket table td{
+    vertical-align:middle;
+}
+#basket table .dollars{
+font-weight: bolder;
+color: #0D6EFD;;
+font-size: 20px;
+}
+#basket table .description, th{
+    font-size: 20px;
+}
+.total{
+    font-size:20px;
+    font-weight: bolder;
+}
